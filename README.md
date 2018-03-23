@@ -31,3 +31,8 @@ For more advanced examples take a look at the demos sections found in the [offic
 
 Comming soon...
 
+## Docker image versioning strategy
+
+The tag `latest` always refer to an image build from `HEAD` on master. When we do an official release we create a tag corresponding to the version of the included plugin. For instance, at the time of this writing the latest version of the plugin is `0.2-alpha` when the docker image for this version is ready we'll release a version with the tag `praqma/jenkins4casc:0.2-alpha` and `praqma/jenkins4casc:0.2-alpha-latest`.
+
+If we need to update the docker image, with a change that is not related to a new version of the plugin we'll create a new version with the tag `0.2-alpha-1`and update the tag `praqma/jenkins4casc:0.2-alpha-latest`.
