@@ -24,3 +24,10 @@ jenkins:
 This gives this message on the welcome screen when Jenkins boots up: 
 
 ![Example of configuration](/img/small.png)
+
+For more advanced examples take a look at the demos sections found in the [official repository for Configuration as Code plugin repository](https://github.com/jenkinsci/configuration-as-code-plugin)
+
+### Example using docker compose and docker secrets
+
+Comming soon...
+
