@@ -6,7 +6,7 @@ Repository for the Praqma custom Docker image using the new [Configuration as Co
 
 Basically the same way as you would use the official Jenkins Docker image. With one difference. If you start a container using this image with an environment variable `CASC_JENKINS_CONFIG` you can configure Jenkins to be configured on startup. And if you point to a configuration file from an URL you can reconfigure without the need for a restart.
 
-### Example with a minimum configuration file
+### Example: Minimum Configuration
 
 `docker run -p 8080:8080 -p 50000:50000 -v jenkins_home:/var/jenkins_home -e CASC_JENKINS_CONFIG=https://raw.githubusercontent.com/Praqma/jenkins4casc/master/jenkins-minimal-example.yaml praqma/jenkins4casc`
 
