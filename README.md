@@ -29,7 +29,7 @@ For more advanced examples take a look at the demos sections found in the [offic
 
 ### Example using docker compose and docker secrets
 
-Comming soon...
+We have a running example using docker compose you're free to take a look at located [here](https://github.com/Praqma/praqma-jenkins-casc).
 
 ## Docker image versioning strategy
 
