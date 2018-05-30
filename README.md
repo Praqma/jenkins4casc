@@ -39,6 +39,8 @@ If we need to update the Docker image, with a change that is not related to a ne
 
 ### Docker autobuild
 
+To create a new docker image on Docker hub, simply tag your commit with a version tag as described above, try to match the version with the version of the included Configuration As Code plugin. So for instance if you create a tag: `0.7-alpha` and push your change to github, you'll get a docker image with the label: `jenkins4casc:0.7-alpha` which is what you want.
+
 The repository is setup with Docker autobuild enabled. We build all tags, and master is always built and made available as `latest`. Versioning is based on the convention described in the Docker image versioning strategy section above.
 
 For more information about how Docker Hub autobuild works please consult the [official guide](https://docs.docker.com/docker-hub/builds/).
