@@ -1,1 +1,1 @@
-configuration-as-code:0.9-alpha
+configuration-as-code:0.10-alpha
