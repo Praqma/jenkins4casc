@@ -1,1 +1,2 @@
 configuration-as-code:1.0-rc1
+configuration-as-code-support:1.0-rc1
