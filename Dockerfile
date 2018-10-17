@@ -1,4 +1,4 @@
-FROM jenkins/jenkins:2.121.1
+FROM jenkins/jenkins:2.138.2
 LABEL maintainer="man@praqma.net" 
 
 ARG JAVA_OPTS
